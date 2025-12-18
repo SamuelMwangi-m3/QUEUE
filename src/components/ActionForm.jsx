@@ -17,7 +17,6 @@ export default function ActionForm({ onAdd }) {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         placeholder="Add new task..."
-        style={{ flex: 1, padding: "0.5rem" }}
       />
       <button type="submit">Add</button>
     </form>
