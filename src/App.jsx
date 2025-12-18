@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import ActionForm from "./components/ActionForm";
 import ActionList from "./components/ActionList";
 import FilterTabs from "./components/FilterTabs";
-import useLocalStorage from "../hooks/useLocalStorage";
+import useLocalStorage from "./hooks/useLocalStorage";
 
 export default function App() {
   // Persist tasks in local storage
