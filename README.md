@@ -68,3 +68,18 @@ Each action is stored as an object:
   "timestamp": "2025-01-10T14:30",
   "status": "pending"
 }
+queue/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── ActionForm.jsx
+│   │   ├── ActionList.jsx
+│   │   ├── ActionItem.jsx
+│   │   └── FilterTabs.jsx
+│   ├── hooks/
+│   │   └── useLocalStorage.js
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+└── README.md
+
